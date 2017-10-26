@@ -1,0 +1,21 @@
+# Site settings
+title: Thoughts
+header-img: img/home-bg.png
+email: wigmore3.14@gmail.com
+copyright_name: Erebu5
+description: > # this means to ignore newlines until "baseurl:"
+  Words
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: 
+github_username:  Erebu5
+learn_profile: Erebu5
+email_username: wigmore3.14@gmail.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
